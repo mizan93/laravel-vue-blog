@@ -32,7 +32,7 @@
                                 </thead>
                                 <tbody>
 
-                                <tr v-for="(post,index) in allpost">
+                                <tr v-for="(post,index) in allpost" :key="post.index">
                                     <td>{{index+1}}</td>
                                     <td v-if="post.user">{{post.user.name}}</td>
                                     <td v-if="post.category">{{post.category.cat_name}}</td>
