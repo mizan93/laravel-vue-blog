@@ -15,10 +15,11 @@
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
         "jquery": "^3.2",
-        "laravel-mix": "^2.0",
+        "laravel-mix": "^5.0.7",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
-        "vue": "^2.5.17"
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
         "admin-lte": "^3.0.0-alpha.2",
